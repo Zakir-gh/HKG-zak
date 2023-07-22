@@ -1,2 +1,2 @@
 # Name:  HKG-zak
-Website: hkg-zak.github.io
+Website: https://zakir-gh.github.io/HKG-zak
