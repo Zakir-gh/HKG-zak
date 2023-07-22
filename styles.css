@@ -1,0 +1,33 @@
+/* Basic Styling */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+/* Custom Styling */
+
+/* Replace the URL with the path to your own image file */
+header {
+    background-image: url('header.png');
+    background-size: cover;
+}
+
+/* Additional custom styles as needed */
