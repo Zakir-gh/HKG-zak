@@ -1,35 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Stay CURIOUS!</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="icon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HKG-zak/projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" href="icon1.ico" type="image/x-icon">
 </head>
 <body>
-  <header>
-    <h1>My Projects</h1>
-  </header>
+    <header>
+        <!-- Collapsible Menu Bar -->
+        <div class="navbar navbar-dark bg-dark">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+                Menu
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="projects.html">My Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="researches.html">My Researches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:window.close();">Exit</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End of Collapsible Menu Bar -->
 
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-    </ul>
-  </nav>
+        <!-- Icon that returns to the Homepage -->
+        <div>
+            <a href="index.html">
+                <img src="icon.ico" alt="Icon" width="50"> 
+            </a>
+            <span style="font-size: 30px;"> You can get some hands-on projects here. &emsp;&emsp;&emsp;&emsp;&emsp;Baga Nagaan Dhuftan!&emsp;&emsp;&emsp;&emsp;&emsp;Stay Curious!&emsp;&emsp;&emsp;&emsp;&emsp; Welcome! </span>
+        </div>
+        <!-- End of Icon and Text -->
+    </header>
 
-  <section>
-    <h2>Project 1</h2>
-    <!-- Add details about Project 1 here -->
-  </section>
+    <main>
+        <section>
+            <h2>My Projects</h2>
+            <!-- Add details about Project 1 here -->
+            <h3>Project 1</h3>
+            <p>
+                Project 1 details...
+            </p>
+            <h3>Project 2</h3>
+            <p>
+                Project 2 details...
+            </p>
+            <!-- Add more projects as needed -->
+        </section>
+    </main>
 
-  <section>
-    <h2>Project 2</h2>
-    <!-- Add details about Project 2 here -->
-  </section>
+    <footer>
+        <!-- Footer with three text spaces -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Contact Info: Email: kebe3209@gmail.com</p>
+                </div>
+                <div class="col text-center">
+                    <p>© 2023 HKG-zak. All rights reserved.</p>
+                </div>
+                <div class="col text-right">
+                    <p>Social Media Links: Your Social Media Links Here</p>
+                </div>
+            </div>
+        </div>
+        <!-- End of Footer -->
+    </footer>
 
-  <footer>
-    <p>&copy; 2023 My Website. All rights reserved.</p>
-  </footer>
+    <!-- Bootstrap and JavaScript libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
